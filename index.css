@@ -1,0 +1,121 @@
+*{
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.main_div{
+  width:100%;
+  height: 100vh;
+  display:flex;
+  justify-content:center;
+  text-align:center;
+  align-items:center;
+  flex-direction:row;
+  background:#ed7b7b;
+}
+
+.center_div{
+  width:25%;
+  height:35em;
+  border-radius: 20px;
+  box-shadow:5px 5px 25px -5px rgba(0,0,0,.5);
+  background-color:#dddddd;
+}
+
+h1{
+  color:#000000;
+  font-size:50px;
+  margin-bottom:30px;
+  min-width:60px;
+  box-sizing: border-box;
+  font-weight: 500;
+  border-radius:6px;
+  letter-spacing:0.02857em;
+  text-transform:uppercase;
+  text-shadow:5px 5px 5px rgba(0,0,0,0.3)
+}
+
+input{
+  text-align:center;
+  height:30px;
+  border:none;
+  background:transparent;
+  font-size:20px;
+  font-weight: 500;
+  width:60%;
+  border-bottom: 2px solid #0d9700;
+  outline:none;
+  margin-right:20px;
+}
+
+.newBtn{
+  width:50px;
+  height: 55px;
+  background-color:#17a504 !important;
+  color:white !important;
+  box-shadow:5px 5px 16px -5px rgba(0,0,0,.3);
+  border-radius:50% !important;
+}
+
+.newBtn:hover{
+  color:#13be1c !important;
+  background:white !important;
+}
+
+ol{
+  width: 20em;
+  height: 14.5em;
+  margin-top:30px;
+  overflow: auto;
+}
+
+ol li{
+  padding-left:0px;
+  text-align:left;
+  font-size:20px;
+  font-weight: 500;
+  min-height:40px;
+  display:flex;
+  align-items:center;
+  color:#8566aa;
+  text-transform:capitalize;
+  list-style:none;
+}
+
+.todo_style{
+  display:flex;
+  flex-direction:row;
+  justify-content: left;
+  align-items: center;
+  margin-left:2em ;
+}
+
+
+
+
+@media (max-width:768px){
+  .center_div{
+    width:55%;
+  }
+}
+.list{
+  width: 10em;
+  margin-left: .5em;
+}
+.done{
+  background-color: rgb(135, 62, 253) !important;
+  color: white !important;
+  width: 2em !important;
+  height: 2em !important;
+  border-radius:50% !important;
+}
+.done:hover{
+  background-color: rgb(125, 51, 194) !important;
+}
+.clearall{
+  background-color: #255192 !important;
+  color: white !important;
+  position: relative;
+  top: 23em;
+}
